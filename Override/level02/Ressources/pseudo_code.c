@@ -17,9 +17,9 @@ int main() {
 	*(stack + (288 - 160) + strcspn(stack + (288 - 160), "\n")) = 0;
 	fclose(fs);
 
-	﻿puts("===== [ Secure Access System v1.0 ] =====");
-	﻿puts("/***************************************\\");
-	﻿puts("| You must login to access this system. |");
+	puts("===== [ Secure Access System v1.0 ] =====");
+	puts("/***************************************\\");
+	puts("| You must login to access this system. |");
 	puts("\***************************************/");
 	printf("--[ Username: ");
 	fgets(stack + (288 - 112), 100, stdin);
