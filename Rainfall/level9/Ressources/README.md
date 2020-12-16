@@ -1,5 +1,9 @@
 # Write up
 
+## Note
+ 
+- Some explanations here are wrong, I will correct them later, maybe...
+
 First of all, we have lots of strange functions which we assume be C++ after some research, this concerns some of those calls (GOT) :
 ```
 08049b80 R_386_COPY        _ZTVN10__cxxabiv117__class_type_infoE
